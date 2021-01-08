@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-top: 50px;
+    background-color: #A0C9F3;
+    padding-bottom: 30px;
+  }
+  
+  #tribute-link {
+    color: black;
+  }
+
+  #tribute-link:hover {
+    opacity: 0.5;
+  }
+
+  nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  ul li a {
+    color: aliceblue;
+    padding: 15px;
+    text-decoration:none;
+  }
+
+  #title {
+    font-size: 52px;    
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 46px;
+  }
+  
+  section {
+    padding: 20px;
+    margin: 15px auto 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  #tribute-info {
+    margin: 0 10px;
+    max-width: 500px;
+    line-height: 1.6em;
+  }
+  
+  #img-div {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    display: table;
+  }
+
+  figcaption {
+    background-color: black;
+    font-size: 16px;
+    margin: 0;
+    padding: 5px;
+    color: aliceblue;
+  }
+
+  #image {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+  }
+
+  .video-wrapper {
+    margin: 10px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa {
+    padding:15px;
+    color:white;
+    border-radius: 50%;
+    font-size: 32px;
+  }
+
+  .fa-facebook {
+    background-color: #3B5998;
+  }
+  
+  .fa-twitter {
+    background-color: #55ACEE;
+  }
+
+  .fa-youtube {
+    background-color: hsl(10, 51%, 49%);
+  }
+
+  .fa-instagram {
+    background-image:radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    border-radius: 50%;
+  }
+
+  #fide {
+    width: 75px;
+    height: auto;
+  }
+  #fide:hover {
+    opacity: 0.7;
+  }
+  
